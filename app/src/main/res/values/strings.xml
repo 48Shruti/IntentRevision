@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IntentRevision</string>
+    <string name="hello">Hello</string>
+    <string name="url">URL</string>
+    <string name="email">E-mail</string>
+    <string name="sms">SMS</string>
+    <string name="call">Call</string>
+    <string name="datapassing">Data Passing</string>
+
+        <string name="registration">Registration</string>
+        <string name="enter_name">Enter Name</string>
+        <string name="enter_email">Enter Email</string>
+        <string name="enter_contact">Enter Contact</string>
+        <string name="enter_password">Enter Password</string>
+        <string name="enter_confirm_password">Enter Confirm Password</string>
+        <string name="register">Register</string>
+    <string name="name">name</string>
+    <string name="contact">Contact</string>
+    <string name="Welcome">"Welcome "</string>
+
+</resources>
