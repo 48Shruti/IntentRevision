@@ -60,26 +60,56 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/size_10sp"
         app:cardCornerRadius="@dimen/size_20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="@string/enter_password"
+            android:layout_height="wrap_content"
             android:padding="@dimen/size_10sp"
-            android:background="@android:color/transparent"
-            android:id="@+id/etpassword"/>
+            android:backgroundTint="@android:color/transparent"
+            android:id="@+id/etpassword"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:layout_weight="1"
+            android:layout_marginEnd="30dp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#6FD5BFBF"
+            android:id="@+id/iveyeclosedPass"
+            android:src="@drawable/img"/>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/size_10sp"
         app:cardCornerRadius="@dimen/size_20dp">
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="@string/enter_confirm_password"
-            android:padding="@dimen/size_10sp"
-            android:background="@android:color/transparent"
-            android:id="@+id/etconfirmpassword"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/size_10sp"
+                android:backgroundTint="@android:color/transparent"
+                android:id="@+id/etconfpassword"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:layout_weight="1"
+                android:layout_marginEnd="30dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#6FD5BFBF"
+                android:id="@+id/iveyeclosedconf"
+                android:src="@drawable/img"/>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
     <Button
         android:layout_width="match_parent"
