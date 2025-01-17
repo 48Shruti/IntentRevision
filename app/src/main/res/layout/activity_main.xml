@@ -39,6 +39,7 @@
             android:layout_height="50dp"
             android:hint="@string/enter_email"
             android:padding="@dimen/size_10sp"
+            android:inputType="textEmailAddress"
             android:background="@android:color/transparent"
             android:id="@+id/etemail"/>
     </androidx.cardview.widget.CardView>
@@ -52,6 +53,7 @@
             android:layout_height="50dp"
             android:hint="@string/enter_contact"
             android:padding="@dimen/size_10sp"
+            android:inputType="number"
             android:background="@android:color/transparent"
             android:id="@+id/etcontact"/>
     </androidx.cardview.widget.CardView>
